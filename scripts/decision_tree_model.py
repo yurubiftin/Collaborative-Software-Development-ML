@@ -33,7 +33,7 @@ def main():
     xf_train = sc_f.fit_transform(xf_train)
     xf_test = sc_f.transform(xf_test)
 
-    model_f = tree.DecisionTreeClassifier()
+    model_f = tree.DecisionTreeClassifier(random_state=42)
     t0 = time.time()
     model_f.fit(xf_train, yf_train)
     fraud_train_time = time.time() - t0
@@ -51,7 +51,7 @@ def main():
     xl_train = sc_l.fit_transform(xl_train)
     xl_test = sc_l.transform(xl_test)
 
-    model_l = tree.DecisionTreeClassifier()
+    model_l = tree.DecisionTreeClassifier(random_state=42)
     t0 = time.time()
     model_l.fit(xl_train, yl_train)
     late_train_time = time.time() - t0
