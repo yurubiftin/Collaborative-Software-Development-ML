@@ -1,0 +1,20 @@
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (30) reached and the optimization hasn't converged yet.
+  warnings.warn(
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (30) reached and the optimization hasn't converged yet.
+  warnings.warn(
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (30) reached and the optimization hasn't converged yet.
+  warnings.warn(
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (30) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Loaded dataset: 180519 rows, 53 columns
+[fraud         ] lr=0.001  acc=98.06%  prec=65.42%  rec=37.18%  f1=47.41%  train_time=24.35s
+[fraud         ] lr=0.01   acc=98.01%  prec=68.84%  rec=28.59%  f1=40.40%  train_time=24.03s
+[late_delivery ] lr=0.001  acc=98.73%  prec=98.23%  rec=99.47%  f1=98.85%  train_time=23.88s
+[late_delivery ] lr=0.01   acc=98.87%  prec=98.20%  rec=99.77%  f1=98.98%  train_time=25.63s
+
+=== Summary ===
+         task  learning_rate  accuracy  precision   recall       f1  train_time_sec
+        fraud          0.001  0.980584   0.654244 0.371765 0.474119           24.35
+        fraud          0.010  0.980141   0.688385 0.285882 0.403990           24.03
+late_delivery          0.001  0.987314   0.982341 0.994747 0.988505           23.88
+late_delivery          0.010  0.988727   0.982003 0.997727 0.989802           25.63
