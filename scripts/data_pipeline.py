@@ -7,6 +7,8 @@ so every model script (Decision Tree, Random Forest, Neural Network, ...)
 starts from an identical, reproducible dataset.
 """
 
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
@@ -18,7 +20,9 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
-DATA_PATH = "DataCoSupplyChainDataset.csv"
+# Resolved relative to this file (scripts/../DataCoSupplyChainDataset.csv) so the
+# script works regardless of the terminal's current working directory.
+DATA_PATH = Path(__file__).resolve().parent.parent / "DataCoSupplyChainDataset.csv"
 
 
 def load_and_clean(path=DATA_PATH):
