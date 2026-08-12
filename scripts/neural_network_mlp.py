@@ -1,8 +1,6 @@
 """
-STARTER / DRAFT - Advanced Model Tier: MLP Neural Network Classification
-Prepared by Tyriq Angili as a starting point for the teammate assigned to
-this tier. Please review, adjust, and commit your own changes on top of
-this before pushing - see the note in the group chat.
+Advanced Model Tier: MLP Neural Network Classification
+Starter prepared by Kenneth Kamau; reviewed and finalized by Tyriq Angili.
 
 Tasks: (1) Fraud detection  (2) Late delivery prediction
 Compares two learning rates: 0.001 (default) vs 0.01.
@@ -23,7 +21,7 @@ from data_pipeline import load_training_data
 
 TASKS = ["fraud", "late_delivery"]
 
-Good idea to test two learning rates. This will help us see which one gives better results
+# Good idea to test two learning rates - this will help us see which one gives better results
 LEARNING_RATES = [0.001, 0.01]
 
 
@@ -84,4 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-Reviewed and Finalized by Tyriq Angili
+# Reviewed and Finalized by Tyriq Angili
