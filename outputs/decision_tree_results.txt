@@ -1,0 +1,30 @@
+Loaded dataset: 180519 rows, 53 columns
+
+Fraud detection model training time: 1.03s
+
+--- Fraud detection ---
+Accuracy  : 99.12%
+Precision : 82.54%
+Recall    : 79.53%
+F1 score  : 81.01%
+Confusion matrix:
+[[35111   143]
+ [  174   676]]
+
+Late delivery model training time: 1.62s
+
+--- Late delivery prediction ---
+Accuracy  : 99.33%
+Precision : 99.40%
+Recall    : 99.38%
+F1 score  : 99.39%
+Confusion matrix:
+[[16189   118]
+ [  123 19674]]
+
+Total runtime: 19.38s
+
+=== Summary ===
+                    task  accuracy  precision   recall       f1
+         Fraud detection  0.991220   0.825397 0.795294 0.810066
+Late delivery prediction  0.993325   0.994038 0.993787 0.993912
