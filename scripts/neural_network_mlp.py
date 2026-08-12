@@ -1,6 +1,6 @@
 """
 STARTER / DRAFT - Advanced Model Tier: MLP Neural Network Classification
-Prepared by Kenneth Kamau as a starting point for the teammate assigned to
+Prepared by Tyriq Angili as a starting point for the teammate assigned to
 this tier. Please review, adjust, and commit your own changes on top of
 this before pushing - see the note in the group chat.
 
@@ -23,6 +23,7 @@ from data_pipeline import load_training_data
 
 TASKS = ["fraud", "late_delivery"]
 
+Good idea to test two learning rates. This will help us see which one gives better results
 LEARNING_RATES = [0.001, 0.01]
 
 
